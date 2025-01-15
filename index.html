@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Student Portal </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <navbar class="navbar">
+            Student Portal
+        </navbar>
+
+        <div class="Input_Container">
+            <input type="text" placeholder="search" id="searchInput">
+            <button id="Button" class="btn"> Search </button>
+        </div>
+
+        <div class="button_Container">
+            <ul class="buttons">
+                <li> <button class="btn" id="SortA_B"> Sort A -> B </button> </li>
+                <li> <button class="btn" id="SortZ_A"> Sort Z -> A </button> </li>
+                <li> <button class="btn" id="SortMarks"> Sort By Marks </button> </li>
+                <li> <button class="btn" id="SortPassing"> Sort By Pasings </button> </li>
+                <li> <button class="btn" id="SortClass"> Sort By Class </button> </li>
+                <li> <button class="btn" id="SortGender"> Sort By Gender </button> </li>
+            </ul>
+        </div>
+
+       <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Class</th>
+                <th>Marks</th>
+                <th>Passing</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+       </table>
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

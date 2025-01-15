@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background: rgb(217, 217, 217);
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background: black;
+    color: aliceblue;
+    display: flex; /* Optional: for content alignment */
+    align-items: center; /* Optional */
+    padding-left: 10px;
+}
+
+
+.Input_Container {
+    display: flex;
+    align-content: center;
+    width: 100%;
+    margin: 10px auto;
+    padding-left: 10px;
+}
+
+.Input_Container input {
+    width: 90%;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+.Input_Container input button {
+    padding: 12px 25px;
+}
+
+.btn {
+    color: #fff;
+    background: #000;
+    padding: 15px 20px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Style the table */
+table {
+    width: 95%;              /* Table spans the full width */
+    margin: 10px auto;           /* Adds vertical spacing */
+    padding: 10px;
+    border-collapse: collapse; /* Combines borders for a cleaner look */
+    border: 1px solid #000;    /* Outer border for the entire table */
+}
+
+/* Style table headers */
+table th {
+    border: 1px solid #000;    /* Adds borders for header cells */
+    padding: 8px;              /* Adds padding inside header cells */
+    background-color: #f4f4f4; /* Light background for header cells */
+    text-align: left;          /* Aligns header text to the left */
+}
+
+/* Style table cells */
+table td {
+    border: 1px solid #000;    /* Adds borders for data cells */
+    padding: 8px;              /* Adds padding inside data cells */
+}
